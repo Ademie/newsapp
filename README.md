@@ -79,3 +79,7 @@ factory Post.fromJson(Map<String, dynamic> json) => Post(
   - `body: json["body"]`: This initializes the `body` field of the `Post` object with the value extracted from the `json` map using the key "body".
 
 In summary, this factory constructor is used to create a `Post` object from a JSON map by extracting values from the map and passing them as named parameters to the `Post` constructor. This is a common pattern for deserializing JSON data into Dart objects.
+
+
+<!-- REFERENCE -->
+https://www.youtube.com/watch?v=c09XiwOZKsI
